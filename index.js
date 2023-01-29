@@ -13,6 +13,9 @@ app.route("/").get((req, res) => {
 
 io.on("connection", (socket) => {
   console.log("New client connected");
+  socket.on("sendMsg", (msg) => {
+    console.log("here is message", msg);
+  }
 });
 
 server.listen(port, "0.0.0.0", () => {
