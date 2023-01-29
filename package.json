@@ -1,0 +1,15 @@
+{
+  "name": "turnt_chat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "socket.io": "^2.2.0",
+    "mongoose": "^6.8.4"
+  }
+}
